@@ -3,5 +3,5 @@ from .views import *
 
 app_name = 'blog'
 urlpatterns = [
-    path('', test1, name='test1'),
+    path('', select_related_test, name='srt'),
 ]
